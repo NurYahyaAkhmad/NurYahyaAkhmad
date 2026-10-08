@@ -20,15 +20,6 @@ I enjoy turning personal ideas into useful little tools, exploring web design, a
 
 Outside of making things, you'll usually find me playing games, listening to music, or picking up my guitar.
 
-### Things I've been making
-
-| Project | What it's about | Explore |
-| :--- | :--- | :--- |
-| **Yahyakun** | My main portfolio: websites, video edits, creative experiments, and personal interests. | [Visit portfolio ↗](https://yahyakun.vercel.app/) |
-| **Garden Design Planner** | A garden planning tool I shared with the Magic Garden community. | [Community post ↗](https://discord.com/channels/808935495543160852/1553947056387915816) |
-| **Game True Scale** | Compare the scale of game worlds on a real-world map. | [Try it ↗](https://gamemapvsearth.netlify.app/) · [Source](https://github.com/NurYahyaAkhmad/truesizegamemap.github.io) |
-| **MG AFK · Community Patch** | An unofficial fork of [Ariedam64's MG AFK](https://github.com/Ariedam64/MG-AFK), with connection and startup improvements. | [Download & source ↗](https://github.com/NurYahyaAkhmad/MG-AFK) |
-
 ### What I like exploring
 
 **Web design** · **Video & photo editing** · **Digital media** · **Game development** · **Tools for gaming communities**
