@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
   <title id="title">Hi, I'm Yahya</title>
-  <desc id="desc">A warm, minimal banner with a creative workspace illustration. Curious, creative, and always learning.</desc>
-  <rect width="1280" height="360" rx="18" fill="#17191b"/>
-  <path d="M54 42h12v12H54z" fill="#e4be76"/>
-  <text x="80" y="53" fill="#d4d1c9" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3">YAHYAKUN / PERSONAL SPACE</text>
-  <text x="52" y="170" fill="#f5f1e8" font-family="Segoe UI,Arial,sans-serif" font-size="84" font-weight="700" letter-spacing="-4">Hi, I'm Yahya.</text>
-  <text x="56" y="220" fill="#c5c2ba" font-family="Segoe UI,Arial,sans-serif" font-size="27">Curious. Creative. Always learning.</text>
-  <path d="M56 271h650" stroke="#363838" stroke-width="1"/>
-  <text x="56" y="310" fill="#e4be76" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2.2">WEB</text>
-  <circle cx="119" cy="304" r="2.5" fill="#70716c"/>
-  <text x="140" y="310" fill="#e4be76" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2.2">MEDIA</text>
-  <circle cx="225" cy="304" r="2.5" fill="#70716c"/>
-  <text x="247" y="310" fill="#e4be76" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2.2">GAME DEV</text>
-  <text x="706" y="310" fill="#a7a79f" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="15">INDONESIA</text>
+  <desc id="desc">A monochrome banner with a creative workspace illustration. Curious, creative, and always learning.</desc>
+  <rect width="1280" height="360" rx="18" fill="#111111"/>
+  <path d="M54 42h12v12H54z" fill="#ffffff"/>
+  <text x="80" y="53" fill="#cccccc" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="3">YAHYAKUN / PERSONAL SPACE</text>
+  <text x="52" y="170" fill="#f7f7f7" font-family="Segoe UI,Arial,sans-serif" font-size="84" font-weight="700" letter-spacing="-4">Hi, I'm Yahya.</text>
+  <text x="56" y="220" fill="#b8b8b8" font-family="Segoe UI,Arial,sans-serif" font-size="27">Curious. Creative. Always learning.</text>
+  <path d="M56 271h650" stroke="#333333" stroke-width="1"/>
+  <text x="56" y="310" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2.2">WEB</text>
+  <circle cx="119" cy="304" r="2.5" fill="#666666"/>
+  <text x="140" y="310" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2.2">MEDIA</text>
+  <circle cx="225" cy="304" r="2.5" fill="#666666"/>
+  <text x="247" y="310" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2.2">GAME DEV</text>
+  <text x="706" y="310" fill="#999999" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="15">INDONESIA</text>
   <g transform="translate(785 49)">
-    <rect x="29" y="0" width="384" height="254" rx="12" fill="#222527" stroke="#454846" stroke-width="1.5"/>
-    <path d="M29 35h384" stroke="#454846" stroke-width="1.5"/>
-    <circle cx="49" cy="18" r="3" fill="#e4be76"/>
-    <circle cx="62" cy="18" r="3" fill="#858c82"/>
-    <circle cx="75" cy="18" r="3" fill="#626864"/>
-    <text x="394" y="23" text-anchor="end" fill="#a7afa4" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.6">IDEAS IN PROGRESS</text>
-    <rect x="50" y="56" width="219" height="125" rx="6" fill="#303734"/>
-    <g fill="#556b58">
+    <rect x="29" y="0" width="384" height="254" rx="12" fill="#1e1e1e" stroke="#454545" stroke-width="1.5"/>
+    <path d="M29 35h384" stroke="#454545" stroke-width="1.5"/>
+    <circle cx="49" cy="18" r="3" fill="#ffffff"/>
+    <circle cx="62" cy="18" r="3" fill="#888888"/>
+    <circle cx="75" cy="18" r="3" fill="#666666"/>
+    <text x="394" y="23" text-anchor="end" fill="#a0a0a0" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.6">IDEAS IN PROGRESS</text>
+    <rect x="50" y="56" width="219" height="125" rx="6" fill="#2d2d2d"/>
+    <g fill="#4d4d4d">
       <rect x="60" y="66" width="37" height="29" rx="3"/>
       <rect x="102" y="66" width="37" height="29" rx="3"/>
       <rect x="144" y="66" width="37" height="29" rx="3"/>
@@ -38,16 +38,16 @@
       <rect x="186" y="134" width="37" height="37" rx="3"/>
       <rect x="228" y="134" width="31" height="37" rx="3"/>
     </g>
-    <rect x="144" y="100" width="37" height="29" rx="3" fill="#e4be76"/>
-    <path d="M163 106v17m-8-8h16" stroke="#373729" stroke-width="2" stroke-linecap="round"/>
-    <rect x="285" y="56" width="108" height="125" rx="6" fill="#e2dacc"/>
-    <circle cx="339" cy="107" r="28" fill="#c4baa7"/>
-    <path d="m334 95 17 12-17 12z" fill="#343934"/>
-    <path d="M307 154h63" stroke="#827e72" stroke-width="3" stroke-linecap="round"/>
-    <rect x="50" y="201" width="143" height="6" rx="3" fill="#71796e"/>
-    <rect x="50" y="216" width="97" height="5" rx="2.5" fill="#4f5750"/>
-    <path d="M280 224h108" stroke="#697366" stroke-width="4" stroke-linecap="round"/>
-    <path d="M280 224h69" stroke="#e4be76" stroke-width="4" stroke-linecap="round"/>
-    <path d="m5 219 36 8-12 12 13 22-9 5-13-22-13 9z" fill="#f5f1e8" stroke="#17191b" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="144" y="100" width="37" height="29" rx="3" fill="#ffffff"/>
+    <path d="M163 106v17m-8-8h16" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+    <rect x="285" y="56" width="108" height="125" rx="6" fill="#dddddd"/>
+    <circle cx="339" cy="107" r="28" fill="#bbbbbb"/>
+    <path d="m334 95 17 12-17 12z" fill="#333333"/>
+    <path d="M307 154h63" stroke="#808080" stroke-width="3" stroke-linecap="round"/>
+    <rect x="50" y="201" width="143" height="6" rx="3" fill="#707070"/>
+    <rect x="50" y="216" width="97" height="5" rx="2.5" fill="#505050"/>
+    <path d="M280 224h108" stroke="#666666" stroke-width="4" stroke-linecap="round"/>
+    <path d="M280 224h69" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <path d="m5 219 36 8-12 12 13 22-9 5-13-22-13 9z" fill="#f7f7f7" stroke="#111111" stroke-width="3" stroke-linejoin="round"/>
   </g>
 </svg>
