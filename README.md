@@ -1,5 +1,5 @@
 <a href="https://yahyakun.vercel.app/">
-  <img src="./assets/banner.svg" alt="Hi, I'm Yahya. Curious, creative, and always learning." width="100%" />
+  <img src="./assets/banner.svg" alt="Hi, I'm Yahya. efefCurious, creative, and always learning." width="100%" />
 </a>
 
 <p align="center">
