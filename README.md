@@ -3,18 +3,18 @@
 </a>
 
 <p align="center">
-  <a href="https://yahyakun.vercel.app/">
-    <img src="./assets/portfolio.svg" alt="Visit my main portfolio: yahyakun.vercel.app" width="540" />
-  </a>
-</p>
-
-<p align="center">
   Creative work, personal projects, and a little more about me.
 </p>
 
 ### A little about me
 
 I'm **Nur Yahya Akhmad**, an IT student from **Indonesia**, studying at **Universitas Negeri Makassar**.
+
+<p align="center">
+  <a href="https://yahyakun.vercel.app/">
+    <img src="./assets/portfolio.svg" alt="Visit my main portfolio: yahyakun.vercel.app" width="540" />
+  </a>
+</p>  
 
 I enjoy turning personal ideas into useful little tools, exploring web design, and working with video and digital media. I learn through experimentation, tutorials, and AI-assisted workflows. My long-term goal is to become a **game developer**.
 
