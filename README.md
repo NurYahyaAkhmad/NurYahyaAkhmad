@@ -16,6 +16,3 @@ I enjoy building small tools for personal use, exploring web design, and working
 
 Outside of my projects, I spend time playing games, listening to music, and picking up my guitar.
 
-### Find me elsewhere
-
-[Instagram](https://www.instagram.com/nurry.vfx) · [YouTube](https://www.youtube.com/@nyaarchives123) · [LinkedIn](https://www.linkedin.com/in/nur-yahya-akhmad-4514a92a2)
