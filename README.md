@@ -9,7 +9,6 @@
 </p>
 
 <p align="center">
-  <b><a href="https://yahyakun.vercel.app/">Explore my main portfolio ↗</a></b><br />
   Creative work, personal projects, and a little more about me.
 </p>
 
