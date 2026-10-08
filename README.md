@@ -6,7 +6,7 @@
 
 I'm **Nur Yahya Akhmad**, an IT student at **Universitas Negeri Makassar**, Indonesia.
 
-I enjoy building small tools for personal use and gaming communities, exploring web design, and working with digital media. I learn through tutorials, experimentation, and AI-assisted workflows, with the goal of becoming a **game developer**.
+I enjoy building small tools for personal use, exploring web design, and working with digital media. I learn through tutorials, experimentation, and AI-assisted workflows, with the goal of becoming a **game developer**.
 
 <p align="center">
   <a href="https://yahyakun.vercel.app/">
