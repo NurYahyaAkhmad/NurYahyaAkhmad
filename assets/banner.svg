@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
-  <title id="title">Hi there Traveler!</title>
+  <title id="title">Hello there traveler!</title>
   <desc id="desc">A GitHub-inspired dark blue banner with a creative workspace illustration.</desc>
 
   <!-- Background -->
@@ -16,20 +16,22 @@
   </text>
 
   <!-- Main title -->
-  <text x="52" y="170"
+  <text x="52" y="145"
         fill="#f0f6fc"
         font-family="Segoe UI,Arial,sans-serif"
-        font-size="84"
+        font-size="64"
         font-weight="700"
-        letter-spacing="-4">
-    Hi There Traveler!
+        letter-spacing="-2">
+    Hello there traveler!
   </text>
-  <text x="80" y="53"
+
+  <!-- Subtitle -->
+  <text x="55" y="195"
         fill="#8b949e"
         font-family="Segoe UI,Arial,sans-serif"
-        font-size="17"
-        letter-spacing="3">
-    WELCOME TO MY BIO
+        font-size="28"
+        font-weight="400">
+    welcome to my github
   </text>
 
   <!-- Divider -->
