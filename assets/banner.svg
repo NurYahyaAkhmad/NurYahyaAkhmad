@@ -24,6 +24,13 @@
         letter-spacing="-4">
     Hi There Traveler!
   </text>
+  <text x="80" y="53"
+        fill="#8b949e"
+        font-family="Segoe UI,Arial,sans-serif"
+        font-size="17"
+        letter-spacing="3">
+    WELCOME TO MY BIO
+  </text>
 
   <!-- Divider -->
   <path d="M56 271h650"
