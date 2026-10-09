@@ -5,5 +5,5 @@
   <text x="29" y="32" fill="#edf1f7" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2.6">MY MAIN PORTFOLIO</text>
   <text x="27" y="74" fill="#edf1f7" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="-.8">yahyakun.vercel.app</text>
   <rect x="553" y="21" width="62" height="62" rx="10" fill="#edf1f7"/>
-  <path d="M574 61 596 39m-19 0h19v19" stroke="#edf1f7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M574 61 596 39m-19 0h19v19" stroke="#0D1117" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>
