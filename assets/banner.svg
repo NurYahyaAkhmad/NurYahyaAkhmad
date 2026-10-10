@@ -34,11 +34,6 @@
     welcome to my github
   </text>
 
-  <!-- Divider -->
-  <path d="M56 271h650"
-        stroke="#30363d"
-        stroke-width="1"/>
-
   <!-- Categories -->
   <text x="56" y="310"
         fill="#c9d1d9"
@@ -76,6 +71,11 @@
     INDONESIA
   </text>
 
+  <!-- Divider -->
+  <path d="M56 326h650"
+        stroke="#30363d"
+        stroke-width="1"/>
+
   <!-- Workspace -->
   <g transform="translate(785 49)">
 
@@ -84,105 +84,113 @@
           width="384"
           height="254"
           rx="12"
-          fill="#161b22"
-          stroke="#30363d"
-          stroke-width="1.5"/>
+          fill="#161b22"/>
 
-    <path d="M29 35h384"
-          stroke="#30363d"
-          stroke-width="1.5"/>
+    <!-- Top bar -->
+    <rect x="29" y="0"
+          width="384"
+          height="35"
+          rx="12"
+          fill="#161b22"/>
 
-    <!-- Window controls -->
-    <circle cx="49" cy="18" r="3" fill="#58a6ff"/>
-    <circle cx="62" cy="18" r="3" fill="#8b949e"/>
-    <circle cx="75" cy="18" r="3" fill="#484f58"/>
+    <!-- Fix lower corners of top bar -->
+    <rect x="29" y="20"
+          width="384"
+          height="15"
+          fill="#161b22"/>
 
-    <!-- Grid container -->
+    <!-- Windows buttons -->
+    <g transform="translate(329 0)">
+      <!-- Minimize -->
+      <rect x="0" y="0" width="28" height="35" fill="transparent"/>
+      <path d="M9 22h10"
+            stroke="#8b949e"
+            stroke-width="1.8"
+            stroke-linecap="round"/>
+
+      <!-- Maximize -->
+      <rect x="28" y="0" width="28" height="35" fill="transparent"/>
+      <rect x="37" y="13"
+            width="10" height="10"
+            fill="none"
+            stroke="#8b949e"
+            stroke-width="1.5"/>
+
+      <!-- Close -->
+      <rect x="56" y="0" width="28" height="35" rx="0" fill="transparent"/>
+      <path d="M65 13l9 9m0-9-9 9"
+            stroke="#f0f6fc"
+            stroke-width="1.8"
+            stroke-linecap="round"/>
+    </g>
+
+    <!-- Main content blocks -->
     <rect x="50" y="56"
-          width="219"
-          height="125"
-          rx="6"
+          width="214"
+          height="128"
+          rx="8"
           fill="#0d1117"/>
 
-    <!-- Grid cards -->
+    <!-- Simplified grid -->
     <g fill="#21262d">
-      <rect x="60" y="66" width="37" height="29" rx="3"/>
-      <rect x="102" y="66" width="37" height="29" rx="3"/>
-      <rect x="144" y="66" width="37" height="29" rx="3"/>
-      <rect x="186" y="66" width="37" height="29" rx="3"/>
-      <rect x="228" y="66" width="31" height="29" rx="3"/>
+      <rect x="63" y="69" width="40" height="36" rx="4"/>
+      <rect x="110" y="69" width="40" height="36" rx="4"/>
+      <rect x="157" y="69" width="40" height="36" rx="4"/>
+      <rect x="204" y="69" width="40" height="36" rx="4"/>
 
-      <rect x="60" y="100" width="37" height="29" rx="3"/>
-      <rect x="102" y="100" width="37" height="29" rx="3"/>
-      <rect x="144" y="100" width="37" height="29" rx="3"/>
-      <rect x="186" y="100" width="37" height="29" rx="3"/>
-      <rect x="228" y="100" width="31" height="29" rx="3"/>
-
-      <rect x="60" y="134" width="37" height="37" rx="3"/>
-      <rect x="102" y="134" width="37" height="37" rx="3"/>
-      <rect x="144" y="134" width="37" height="37" rx="3"/>
-      <rect x="186" y="134" width="37" height="37" rx="3"/>
-      <rect x="228" y="134" width="31" height="37" rx="3"/>
+      <rect x="63" y="112" width="40" height="56" rx="4"/>
+      <rect x="110" y="112" width="40" height="56" rx="4"/>
+      <rect x="157" y="112" width="40" height="56" rx="4"/>
+      <rect x="204" y="112" width="40" height="56" rx="4"/>
     </g>
 
     <!-- Active tile -->
-    <rect x="144" y="100"
-          width="37"
-          height="29"
-          rx="3"
+    <rect x="157" y="69"
+          width="40"
+          height="36"
+          rx="4"
           fill="#58a6ff"/>
 
-    <path d="M163 106v17m-8-8h16"
+    <path d="M177 78v18m-8-9h16"
           stroke="#0d1117"
           stroke-width="2"
           stroke-linecap="round"/>
 
     <!-- Video panel -->
-    <rect x="285" y="56"
-          width="108"
-          height="125"
-          rx="6"
-          fill="#21262d"
-          stroke="#30363d"/>
+    <rect x="281" y="56"
+          width="112"
+          height="128"
+          rx="8"
+          fill="#21262d"/>
 
-    <circle cx="339" cy="107"
-            r="28"
+    <circle cx="337" cy="105"
+            r="26"
             fill="#30363d"/>
 
-    <path d="m334 95 17 12-17 12z"
+    <path d="m332 94 16 11-16 11z"
           fill="#58a6ff"/>
 
-    <path d="M307 154h63"
-          stroke="#484f58"
-          stroke-width="3"
-          stroke-linecap="round"/>
-
-    <!-- Text mockup -->
-    <rect x="50" y="201"
-          width="143"
-          height="6"
-          rx="3"
+    <!-- Simple text blocks -->
+    <rect x="50" y="204"
+          width="150"
+          height="7"
+          rx="3.5"
           fill="#8b949e"/>
 
-    <rect x="50" y="216"
-          width="97"
+    <rect x="50" y="220"
+          width="95"
           height="5"
           rx="2.5"
           fill="#484f58"/>
 
-    <!-- Progress bar -->
-    <path d="M280 224h108"
-          stroke="#30363d"
-          stroke-width="4"
-          stroke-linecap="round"/>
-
-    <path d="M280 224h69"
-          stroke="#58a6ff"
-          stroke-width="4"
-          stroke-linecap="round"/>
+    <rect x="281" y="219"
+          width="85"
+          height="5"
+          rx="2.5"
+          fill="#58a6ff"/>
 
     <!-- Cursor -->
-    <path d="m5 219 36 8-12 12 13 22-9 5-13-22-13 9z"
+    <path d="m6 220 34 8-12 11 13 22-8 5-13-21-12 8z"
           fill="#f0f6fc"
           stroke="#0d1117"
           stroke-width="3"
