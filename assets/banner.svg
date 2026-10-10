@@ -1,126 +1,95 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
   <title id="title">Hello there traveler!</title>
-  <desc id="desc">A GitHub-inspired dark blue banner with a creative workspace illustration.</desc>
+  <desc id="desc">A GitHub-inspired dark banner with a creative workspace illustration.</desc>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@500;700&family=Orbitron:wght@700&display=swap');
+
+    .brand {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 17px;
+      letter-spacing: 3px;
+      fill: #8b949e;
+    }
+
+    .title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 60px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      fill: #f0f6fc;
+    }
+
+    .subtitle {
+      font-family: 'Inter', sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      fill: #8b949e;
+    }
+
+    .category {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 17px;
+      letter-spacing: 2px;
+      fill: #c9d1d9;
+    }
+
+    .small {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      fill: #8b949e;
+    }
+  </style>
 
   <!-- Background -->
   <rect width="1280" height="360" rx="18" fill="#0d1117"/>
 
   <!-- Brand -->
   <path d="M54 42h12v12H54z" fill="#f0f6fc"/>
-  <text x="80" y="53"
-        fill="#8b949e"
-        font-family="Segoe UI,Arial,sans-serif"
-        font-size="17"
-        letter-spacing="3">
-    YAHYAKUN
-  </text>
+  <text x="80" y="53" class="brand">YAHYAKUN</text>
 
   <!-- Main title -->
-  <text x="52" y="145"
-        fill="#f0f6fc"
-        font-family="Segoe UI,Arial,sans-serif"
-        font-size="64"
-        font-weight="700"
-        letter-spacing="-2">
-    Hello there traveler!
-  </text>
+  <text x="52" y="145" class="title">Hello there traveler!</text>
 
   <!-- Subtitle -->
-  <text x="55" y="195"
-        fill="#8b949e"
-        font-family="Segoe UI,Arial,sans-serif"
-        font-size="28"
-        font-weight="400">
-    welcome to my github
-  </text>
+  <text x="55" y="195" class="subtitle">welcome to my github</text>
 
   <!-- Categories -->
-  <text x="56" y="310"
-        fill="#c9d1d9"
-        font-family="Segoe UI,Arial,sans-serif"
-        font-size="17"
-        letter-spacing="2.2">
-    WEB
-  </text>
-
+  <text x="56" y="310" class="category">WEB</text>
   <circle cx="119" cy="304" r="2.5" fill="#f0f6fc"/>
 
-  <text x="140" y="310"
-        fill="#c9d1d9"
-        font-family="Segoe UI,Arial,sans-serif"
-        font-size="17"
-        letter-spacing="2.2">
-    MEDIA
-  </text>
-
+  <text x="140" y="310" class="category">MEDIA</text>
   <circle cx="225" cy="304" r="2.5" fill="#f0f6fc"/>
 
-  <text x="247" y="310"
-        fill="#c9d1d9"
-        font-family="Segoe UI,Arial,sans-serif"
-        font-size="17"
-        letter-spacing="2.2">
-    GAME DEV
-  </text>
+  <text x="247" y="310" class="category">GAME DEV</text>
 
-  <text x="706" y="310"
-        fill="#8b949e"
-        text-anchor="end"
-        font-family="Segoe UI,Arial,sans-serif"
-        font-size="15">
-    INDONESIA
-  </text>
+  <text x="706" y="310" text-anchor="end" class="small">INDONESIA</text>
 
   <!-- Divider -->
-  <path d="M56 326h650"
-        stroke="#30363d"
-        stroke-width="1"/>
+  <path d="M56 326h650" stroke="#30363d" stroke-width="1"/>
 
   <!-- Workspace -->
   <g transform="translate(785 49)">
-
-    <!-- Window -->
-    <rect x="29" y="0"
-          width="384"
-          height="254"
-          fill="#161b22"/>
+    <!-- Outer frame only rounded -->
+    <rect x="29" y="0" width="384" height="254" rx="12" fill="#161b22"/>
 
     <!-- Top bar -->
-    <rect x="29" y="0"
-          width="384"
-          height="35"
-          fill="#161b22"/>
+    <path d="M41 0h360a12 12 0 0 1 12 12v23H29V12A12 12 0 0 1 41 0z" fill="#161b22"/>
 
     <!-- Windows buttons -->
     <g transform="translate(329 0)">
-      <!-- Minimize -->
       <rect x="0" y="0" width="28" height="35" fill="transparent"/>
-      <path d="M9 22h10"
-            stroke="#8b949e"
-            stroke-width="1.8"
-            stroke-linecap="round"/>
+      <path d="M9 22h10" stroke="#8b949e" stroke-width="1.8" stroke-linecap="round"/>
 
-      <!-- Maximize -->
       <rect x="28" y="0" width="28" height="35" fill="transparent"/>
-      <rect x="37" y="13"
-            width="10" height="10"
-            fill="none"
-            stroke="#8b949e"
-            stroke-width="1.5"/>
+      <rect x="37" y="13" width="10" height="10" fill="none" stroke="#8b949e" stroke-width="1.5"/>
 
-      <!-- Close -->
       <rect x="56" y="0" width="28" height="35" fill="transparent"/>
-      <path d="M65 13l9 9m0-9-9 9"
-            stroke="#f0f6fc"
-            stroke-width="1.8"
-            stroke-linecap="round"/>
+      <path d="M65 13l9 9m0-9-9 9" stroke="#f0f6fc" stroke-width="1.8" stroke-linecap="round"/>
     </g>
 
     <!-- Main content blocks -->
-    <rect x="50" y="56"
-          width="214"
-          height="128"
-          fill="#0d1117"/>
+    <rect x="50" y="56" width="214" height="128" fill="#0d1117"/>
 
     <!-- Simplified grid -->
     <g fill="#21262d">
@@ -136,44 +105,18 @@
     </g>
 
     <!-- Active tile -->
-    <rect x="157" y="69"
-          width="40"
-          height="36"
-          fill="#f0f6fc"/>
-
-    <path d="M177 78v18m-8-9h16"
-          stroke="#0d1117"
-          stroke-width="2"
-          stroke-linecap="round"/>
+    <rect x="157" y="69" width="40" height="36" fill="#f0f6fc"/>
+    <path d="M177 78v18m-8-9h16" stroke="#0d1117" stroke-width="2" stroke-linecap="round"/>
 
     <!-- Video panel -->
-    <rect x="281" y="56"
-          width="112"
-          height="128"
-          fill="#21262d"/>
-
-    <circle cx="337" cy="105"
-            r="26"
-            fill="#30363d"/>
-
-    <path d="m332 94 16 11-16 11z"
-          fill="#f0f6fc"/>
+    <rect x="281" y="56" width="112" height="128" fill="#21262d"/>
+    <circle cx="337" cy="105" r="26" fill="#30363d"/>
+    <path d="m332 94 16 11-16 11z" fill="#f0f6fc"/>
 
     <!-- Simple text blocks -->
-    <rect x="50" y="204"
-          width="150"
-          height="7"
-          fill="#8b949e"/>
-
-    <rect x="50" y="220"
-          width="95"
-          height="5"
-          fill="#484f58"/>
-
-    <rect x="281" y="219"
-          width="85"
-          height="5"
-          fill="#f0f6fc"/>
+    <rect x="50" y="204" width="150" height="7" fill="#8b949e"/>
+    <rect x="50" y="220" width="95" height="5" fill="#484f58"/>
+    <rect x="281" y="219" width="85" height="5" fill="#f0f6fc"/>
 
     <!-- Cursor -->
     <path d="m6 220 34 8-12 11 13 22-8 5-13-21-12 8z"
