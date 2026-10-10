@@ -83,20 +83,12 @@
     <rect x="29" y="0"
           width="384"
           height="254"
-          rx="12"
           fill="#161b22"/>
 
     <!-- Top bar -->
     <rect x="29" y="0"
           width="384"
           height="35"
-          rx="12"
-          fill="#161b22"/>
-
-    <!-- Fix lower corners of top bar -->
-    <rect x="29" y="20"
-          width="384"
-          height="15"
           fill="#161b22"/>
 
     <!-- Windows buttons -->
@@ -117,7 +109,7 @@
             stroke-width="1.5"/>
 
       <!-- Close -->
-      <rect x="56" y="0" width="28" height="35" rx="0" fill="transparent"/>
+      <rect x="56" y="0" width="28" height="35" fill="transparent"/>
       <path d="M65 13l9 9m0-9-9 9"
             stroke="#f0f6fc"
             stroke-width="1.8"
@@ -128,28 +120,26 @@
     <rect x="50" y="56"
           width="214"
           height="128"
-          rx="8"
           fill="#0d1117"/>
 
     <!-- Simplified grid -->
     <g fill="#21262d">
-      <rect x="63" y="69" width="40" height="36" rx="4"/>
-      <rect x="110" y="69" width="40" height="36" rx="4"/>
-      <rect x="157" y="69" width="40" height="36" rx="4"/>
-      <rect x="204" y="69" width="40" height="36" rx="4"/>
+      <rect x="63" y="69" width="40" height="36"/>
+      <rect x="110" y="69" width="40" height="36"/>
+      <rect x="157" y="69" width="40" height="36"/>
+      <rect x="204" y="69" width="40" height="36"/>
 
-      <rect x="63" y="112" width="40" height="56" rx="4"/>
-      <rect x="110" y="112" width="40" height="56" rx="4"/>
-      <rect x="157" y="112" width="40" height="56" rx="4"/>
-      <rect x="204" y="112" width="40" height="56" rx="4"/>
+      <rect x="63" y="112" width="40" height="56"/>
+      <rect x="110" y="112" width="40" height="56"/>
+      <rect x="157" y="112" width="40" height="56"/>
+      <rect x="204" y="112" width="40" height="56"/>
     </g>
 
     <!-- Active tile -->
     <rect x="157" y="69"
           width="40"
           height="36"
-          rx="4"
-          fill="#58a6ff"/>
+          fill="#79c0ff"/>
 
     <path d="M177 78v18m-8-9h16"
           stroke="#0d1117"
@@ -160,7 +150,6 @@
     <rect x="281" y="56"
           width="112"
           height="128"
-          rx="8"
           fill="#21262d"/>
 
     <circle cx="337" cy="105"
@@ -168,26 +157,23 @@
             fill="#30363d"/>
 
     <path d="m332 94 16 11-16 11z"
-          fill="#58a6ff"/>
+          fill="#79c0ff"/>
 
     <!-- Simple text blocks -->
     <rect x="50" y="204"
           width="150"
           height="7"
-          rx="3.5"
           fill="#8b949e"/>
 
     <rect x="50" y="220"
           width="95"
           height="5"
-          rx="2.5"
           fill="#484f58"/>
 
     <rect x="281" y="219"
           width="85"
           height="5"
-          rx="2.5"
-          fill="#58a6ff"/>
+          fill="#79c0ff"/>
 
     <!-- Cursor -->
     <path d="m6 220 34 8-12 11 13 22-8 5-13-21-12 8z"
