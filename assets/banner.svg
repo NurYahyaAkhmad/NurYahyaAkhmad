@@ -6,7 +6,7 @@
   <rect width="1280" height="360" rx="18" fill="#0d1117"/>
 
   <!-- Brand -->
-  <path d="M54 42h12v12H54z" fill="#58a6ff"/>
+  <path d="M54 42h12v12H54z" fill="#f0f6fc"/>
   <text x="80" y="53"
         fill="#8b949e"
         font-family="Segoe UI,Arial,sans-serif"
@@ -43,7 +43,7 @@
     WEB
   </text>
 
-  <circle cx="119" cy="304" r="2.5" fill="#58a6ff"/>
+  <circle cx="119" cy="304" r="2.5" fill="#f0f6fc"/>
 
   <text x="140" y="310"
         fill="#c9d1d9"
@@ -53,7 +53,7 @@
     MEDIA
   </text>
 
-  <circle cx="225" cy="304" r="2.5" fill="#58a6ff"/>
+  <circle cx="225" cy="304" r="2.5" fill="#f0f6fc"/>
 
   <text x="247" y="310"
         fill="#c9d1d9"
@@ -139,7 +139,7 @@
     <rect x="157" y="69"
           width="40"
           height="36"
-          fill="#79c0ff"/>
+          fill="#f0f6fc"/>
 
     <path d="M177 78v18m-8-9h16"
           stroke="#0d1117"
@@ -157,7 +157,7 @@
             fill="#30363d"/>
 
     <path d="m332 94 16 11-16 11z"
-          fill="#79c0ff"/>
+          fill="#f0f6fc"/>
 
     <!-- Simple text blocks -->
     <rect x="50" y="204"
@@ -173,7 +173,7 @@
     <rect x="281" y="219"
           width="85"
           height="5"
-          fill="#79c0ff"/>
+          fill="#f0f6fc"/>
 
     <!-- Cursor -->
     <path d="m6 220 34 8-12 11 13 22-8 5-13-21-12 8z"
