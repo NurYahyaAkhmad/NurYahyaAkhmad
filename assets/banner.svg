@@ -1,178 +1,376 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
   <title id="title">Hello there traveler!</title>
-  <desc id="desc">A dark GitHub profile banner with a creative workspace illustration.</desc>
+  <desc id="desc">A dark GitHub profile banner with a more human-made creative workspace illustration.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f14"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <radialGradient id="glowRight" cx="70%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#314158" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#314158" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="windowSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#202938"/>
+      <stop offset="100%" stop-color="#121923"/>
+    </linearGradient>
+
+    <linearGradient id="heroSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#172131"/>
+      <stop offset="100%" stop-color="#0d1420"/>
+    </linearGradient>
+
+    <filter id="shadowSoft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+    <filter id="shadowCard" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.22"/>
+    </filter>
+
+    <filter id="blurSmall">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+
+    <clipPath id="clipWindow">
+      <rect x="790" y="42" width="425" height="260" rx="22"/>
+    </clipPath>
+
+    <clipPath id="clipHero">
+      <rect x="865" y="86" width="285" height="102" rx="14"/>
+    </clipPath>
+
+    <clipPath id="clipThumb1">
+      <rect x="865" y="206" width="92" height="60" rx="10"/>
+    </clipPath>
+
+    <clipPath id="clipThumb2">
+      <rect x="969" y="206" width="92" height="60" rx="10"/>
+    </clipPath>
+
+    <clipPath id="clipThumb3">
+      <rect x="1073" y="206" width="92" height="60" rx="10"/>
+    </clipPath>
+  </defs>
 
   <!-- Background -->
-  <rect width="1280" height="360" rx="18" fill="#0d1117"/>
+  <rect width="1280" height="360" rx="18" fill="url(#bgGrad)"/>
+  <rect width="1280" height="360" rx="18" fill="url(#glowRight)"/>
+
+  <!-- subtle background texture-ish accents -->
+  <path d="M485 64 C530 48, 575 52, 617 74" fill="none" stroke="#95a6bf" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M500 280 C545 255, 582 258, 628 286" fill="none" stroke="#95a6bf" stroke-opacity="0.08" stroke-width="2"/>
+  <circle cx="507" cy="86" r="1.6" fill="#d4deed" opacity="0.18"/>
+  <circle cx="522" cy="86" r="1.6" fill="#d4deed" opacity="0.12"/>
+  <circle cx="537" cy="86" r="1.6" fill="#d4deed" opacity="0.15"/>
 
   <!-- Brand -->
-  <rect x="54" y="42" width="12" height="12" fill="#f0f6fc"/>
-
-  <text x="80" y="53"
-        fill="#8b949e"
-        font-family="Consolas, Monaco, monospace"
+  <rect x="54" y="42" width="12" height="12" rx="1.5" fill="#f3f6fb"/>
+  <text x="80" y="54"
+        fill="#d9e2ef"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
-        font-weight="700"
-        letter-spacing="3">
+        font-weight="500"
+        letter-spacing="4">
     YAHYAKUN
   </text>
 
   <!-- Main title -->
   <text x="52" y="145"
-        fill="#f0f6fc"
-        font-family="Trebuchet MS, Segoe UI, Arial, sans-serif"
+        fill="#f3f6fb"
+        font-family="Arial, Helvetica, sans-serif"
         font-size="62"
         font-weight="700"
         letter-spacing="-2">
-    Hello there traveler!
+    Hello there
   </text>
 
+  <text x="52" y="230"
+        fill="#a8b6ca"
+        font-family="Caveat, Segoe Script, Brush Script MT, cursive"
+        font-size="84"
+        font-weight="700"
+        letter-spacing="0.5">
+    traveler!
+  </text>
+
+  <!-- small scribble near title -->
+  <path d="M430 216 C448 209, 470 211, 490 223" fill="none" stroke="#bac7d8" stroke-opacity="0.45" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M438 228 C458 220, 482 224, 501 238" fill="none" stroke="#bac7d8" stroke-opacity="0.28" stroke-width="2.4" stroke-linecap="round"/>
+
   <!-- Subtitle -->
-  <text x="55" y="195"
-        fill="#8b949e"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="28">
+  <text x="55" y="278"
+        fill="#90a0b4"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="28"
+        font-weight="400"
+        letter-spacing="3">
     welcome to my github
   </text>
 
   <!-- Categories -->
-  <text x="56" y="310"
-        fill="#c9d1d9"
-        font-family="Consolas, Monaco, monospace"
+  <text x="56" y="326"
+        fill="#d8dfeb"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
-        letter-spacing="2">
+        font-weight="500"
+        letter-spacing="3">
     WEB
   </text>
+  <circle cx="123" cy="320" r="2.4" fill="#d8dfeb" opacity="0.9"/>
 
-  <circle cx="119" cy="304" r="2.5" fill="#f0f6fc"/>
-
-  <text x="140" y="310"
-        fill="#c9d1d9"
-        font-family="Consolas, Monaco, monospace"
+  <text x="145" y="326"
+        fill="#d8dfeb"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
-        letter-spacing="2">
+        font-weight="500"
+        letter-spacing="3">
     MEDIA
   </text>
+  <circle cx="231" cy="320" r="2.4" fill="#d8dfeb" opacity="0.9"/>
 
-  <circle cx="225" cy="304" r="2.5" fill="#f0f6fc"/>
-
-  <text x="247" y="310"
-        fill="#c9d1d9"
-        font-family="Consolas, Monaco, monospace"
+  <text x="253" y="326"
+        fill="#d8dfeb"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
         font-size="17"
-        letter-spacing="2">
+        font-weight="500"
+        letter-spacing="3">
     GAME DEV
   </text>
 
-  <text x="706" y="310"
-        fill="#8b949e"
+  <text x="1212" y="326"
+        fill="#a0aec0"
         text-anchor="end"
-        font-family="Segoe UI, Arial, sans-serif"
-        font-size="15">
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="15"
+        font-weight="500"
+        letter-spacing="3">
     INDONESIA
   </text>
 
   <!-- Divider -->
-  <path d="M56 326 H706"
-        stroke="#30363d"
-        stroke-width="1"/>
+  <path d="M56 338 H1212" stroke="#a2b1c5" stroke-opacity="0.45" stroke-width="1"/>
 
-  <!-- Website illustration -->
-  <g transform="translate(785 49)">
-
-    <!-- Rounded outer frame only -->
-    <rect x="29" y="0"
-          width="384"
-          height="254"
-          rx="12"
-          fill="#161b22"/>
-
-    <!-- Windows controls -->
-    <g>
-      <!-- Minimize -->
-      <path d="M344 19 H356"
-            stroke="#8b949e"
-            stroke-width="1.6"/>
-
-      <!-- Maximize -->
-      <rect x="371" y="13"
-            width="11"
-            height="11"
-            fill="none"
-            stroke="#8b949e"
-            stroke-width="1.4"/>
-
-      <!-- Close -->
-      <path d="M397 13 L407 23 M407 13 L397 23"
-            stroke="#f0f6fc"
-            stroke-width="1.6"
-            stroke-linecap="round"/>
+  <!-- Backdrop papers / human-made collage -->
+  <g opacity="0.75">
+    <g transform="translate(745 62) rotate(-7)">
+      <rect x="0" y="0" width="74" height="96" rx="4" fill="#b9b1a5" opacity="0.28"/>
+      <rect x="8" y="10" width="58" height="64" rx="2" fill="#182231"/>
+      <circle cx="49" cy="26" r="7" fill="#e8edf5" opacity="0.6"/>
+      <path d="M8 57 L24 42 L34 51 L46 35 L66 57 V74 H8 Z" fill="#3c4a60"/>
+      <path d="M8 63 L18 55 L30 58 L40 49 L56 63 V74 H8 Z" fill="#55647a"/>
     </g>
 
-    <!-- Content area -->
-    <rect x="50" y="56"
-          width="214"
-          height="128"
-          fill="#0d1117"/>
+    <g transform="translate(1160 48) rotate(4)">
+      <rect x="0" y="0" width="72" height="112" rx="4" fill="#d9cab6" opacity="0.18"/>
+      <path d="M16 72 C25 68, 28 58, 22 50 C33 47, 38 37, 34 28" fill="none" stroke="#7a8797" stroke-width="1.2" stroke-opacity="0.55"/>
+      <path d="M48 83 C55 78, 57 68, 54 60" fill="none" stroke="#7a8797" stroke-width="1.2" stroke-opacity="0.55"/>
+      <path d="M42 16 A8 8 0 1 1 42 32 A8 8 0 1 1 42 16 Z" fill="none" stroke="#7a8797" stroke-width="1.1" stroke-opacity="0.45"/>
+    </g>
+  </g>
 
-    <!-- Grid -->
-    <g fill="#21262d">
-      <rect x="63" y="69" width="40" height="36"/>
-      <rect x="110" y="69" width="40" height="36"/>
-      <rect x="157" y="69" width="40" height="36"/>
-      <rect x="204" y="69" width="40" height="36"/>
+  <!-- Main window -->
+  <g filter="url(#shadowSoft)">
+    <rect x="790" y="42" width="425" height="260" rx="22" fill="url(#windowSheen)"/>
+    <rect x="790" y="42" width="425" height="34" rx="22" fill="#1c2634" opacity="0.62"/>
+    <rect x="790" y="56" width="425" height="246" rx="0" fill="#111825"/>
 
-      <rect x="63" y="112" width="40" height="56"/>
-      <rect x="110" y="112" width="40" height="56"/>
-      <rect x="157" y="112" width="40" height="56"/>
-      <rect x="204" y="112" width="40" height="56"/>
+    <!-- window controls -->
+<g opacity="0.95">
+
+  <!-- Minimize -->
+  <g transform="rotate(-5 1142.5 59)">
+    <path
+      d="M1137 59 H1148"
+      fill="none"
+      stroke="#dfe7f4"
+      stroke-width="1.4"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <!-- Maximize -->
+  <g transform="rotate(3 1173 58.5)">
+    <rect
+      x="1167"
+      y="52.5"
+      width="12"
+      height="12"
+      rx="1"
+      fill="none"
+      stroke="#dfe7f4"
+      stroke-width="1.2"
+    />
+  </g>
+
+  <!-- Close -->
+  <g transform="rotate(-4 1202.5 58)">
+    <path
+      d="M1197 52.5 L1208 63.5"
+      fill="none"
+      stroke="#f3f6fb"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+    <path
+      d="M1208 52.5 L1197 63.5"
+      fill="none"
+      stroke="#f3f6fb"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+  </g>
+
+</g>
+
+    <!-- sidebar -->
+    <rect x="806" y="74" width="56" height="210" rx="18" fill="#0d131d"/>
+    <rect x="823" y="105" width="22" height="22" rx="2" fill="#f3f6fb"/>
+    <rect x="813" y="145" width="42" height="36" rx="10" fill="#202c3b"/>
+
+    <!-- home icon -->
+    <path d="M826 164 L834 157 L842 164 V171 H836 V165 H832 V171 H826 Z" fill="#f3f6fb"/>
+
+    <!-- folder icon -->
+    <path d="M825 199 H831 L834 202 H842 V212 H825 Z" fill="none" stroke="#9fb0c6" stroke-width="1.7" stroke-linejoin="round"/>
+    <!-- image icon -->
+    <rect x="825" y="230" width="17" height="14" rx="2.2" fill="none" stroke="#9fb0c6" stroke-width="1.6"/>
+    <circle cx="830" cy="235" r="1.7" fill="#9fb0c6"/>
+    <path d="M827 241 L831 237 L835 240 L839 235 L842 241" fill="none" stroke="#9fb0c6" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- game icon -->
+    <path d="M825 273 C825 268, 829 266, 833 266 H835 C839 266, 843 268, 843 273
+             L842 277 C842 280, 840 281, 838 280 L835 278 H833 L830 280 C828 281, 826 280, 826 277 Z"
+          fill="none" stroke="#9fb0c6" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M831 272 H836 M833.5 269.5 V274.5" stroke="#9fb0c6" stroke-width="1.3" stroke-linecap="round"/>
+    <circle cx="838.5" cy="272" r="1.1" fill="#9fb0c6"/>
+    <circle cx="841.7" cy="269.8" r="1.1" fill="#9fb0c6"/>
+
+    <!-- main hero panel -->
+    <g clip-path="url(#clipHero)">
+      <rect x="865" y="86" width="285" height="102" rx="14" fill="url(#heroSky)"/>
+
+      <circle cx="1062" cy="112" r="14" fill="#f2f5fb" opacity="0.9"/>
+      <path d="M865 168 L915 132 L953 146 L990 116 L1020 138 L1065 112 L1113 141 L1150 121 V188 H865 Z" fill="#253245"/>
+      <path d="M865 179 L900 149 L937 160 L970 137 L1005 156 L1044 130 L1098 163 L1150 141 V188 H865 Z" fill="#324156"/>
+      <path d="M865 188 L865 171 C889 154, 902 163, 917 153 C935 166, 947 157, 960 166
+               C978 153, 994 160, 1011 148 C1027 162, 1037 156, 1051 164
+               C1068 151, 1082 160, 1097 149 C1114 164, 1128 157, 1150 171
+               V188 Z" fill="#111a27"/>
+
+      <!-- trees -->
+      <g fill="#0b111a" opacity="0.95">
+        <path d="M888 188 L896 170 L904 188 Z"/>
+        <path d="M902 188 L911 164 L920 188 Z"/>
+        <path d="M919 188 L926 171 L933 188 Z"/>
+        <path d="M941 188 L951 160 L961 188 Z"/>
+        <path d="M966 188 L976 167 L986 188 Z"/>
+        <path d="M990 188 L1000 163 L1010 188 Z"/>
+        <path d="M1015 188 L1023 172 L1031 188 Z"/>
+        <path d="M1040 188 L1052 158 L1064 188 Z"/>
+        <path d="M1069 188 L1081 162 L1093 188 Z"/>
+        <path d="M1097 188 L1107 168 L1117 188 Z"/>
+      </g>
     </g>
 
-    <!-- Active tile -->
-    <rect x="157" y="69"
-          width="40"
-          height="36"
-          fill="#f0f6fc"/>
+    <!-- hero text lines -->
+    <rect x="882" y="104" width="72" height="10" rx="5" fill="#cad4e3" opacity="0.9"/>
+    <rect x="882" y="121" width="52" height="6" rx="3" fill="#8493a8" opacity="0.85"/>
+    <rect x="882" y="132" width="42" height="6" rx="3" fill="#8493a8" opacity="0.72"/>
 
-    <path d="M177 78 V96 M168 87 H186"
-          stroke="#0d1117"
-          stroke-width="2"
-          stroke-linecap="round"/>
+    <text x="1088" y="138"
+          fill="#aeb9ca"
+          font-family="Caveat, Segoe Script, Brush Script MT, cursive"
+          font-size="22"
+          font-weight="600">
+      ideas
+    </text>
+    <text x="1091" y="158"
+          fill="#aeb9ca"
+          font-family="Caveat, Segoe Script, Brush Script MT, cursive"
+          font-size="22"
+          font-weight="600">
+      build
+    </text>
+    <text x="1094" y="178"
+          fill="#aeb9ca"
+          font-family="Caveat, Segoe Script, Brush Script MT, cursive"
+          font-size="22"
+          font-weight="600">
+      play
+    </text>
 
-    <!-- Video panel -->
-    <rect x="281" y="56"
-          width="112"
-          height="128"
-          fill="#21262d"/>
+    <!-- right info cards -->
+    <rect x="1166" y="86" width="37" height="102" rx="12" fill="#192230" opacity="0.96"/>
+    <rect x="1148" y="86" width="55" height="102" rx="12" fill="#1a2230" opacity="0.96"/>
+    <circle cx="1170" cy="112" r="12" fill="#cdd6e5" opacity="0.9"/>
+    <rect x="1187" y="104" width="42" height="6" rx="3" fill="#8493a8" opacity="0.95"/>
+    <rect x="1187" y="118" width="32" height="6" rx="3" fill="#6d7b8d" opacity="0.8"/>
 
-    <circle cx="337" cy="105"
-            r="26"
-            fill="#30363d"/>
+    <circle cx="1165" cy="152" r="4.8" fill="#e7edf7" opacity="0.95"/>
+    <rect x="1178" y="148" width="46" height="6" rx="3" fill="#93a2b7" opacity="0.9"/>
 
-    <path d="M332 94 L348 105 L332 116 Z"
-          fill="#f0f6fc"/>
+    <circle cx="1165" cy="184" r="4.8" fill="#b8c4d6" opacity="0.82"/>
+    <rect x="1178" y="180" width="54" height="6" rx="3" fill="#6d7b8d" opacity="0.82"/>
 
-    <!-- Text blocks -->
-    <rect x="50" y="204"
-          width="150"
-          height="7"
-          fill="#8b949e"/>
+    <rect x="1148" y="206" width="55" height="60" rx="12" fill="#1a2230" opacity="0.96"/>
+    <rect x="1158" y="216" width="18" height="18" rx="4" fill="#73839a"/>
+    <path d="M1158 232 L1164 226 L1169 229 L1176 220 L1176 234 H1158 Z" fill="#b8c6d9" opacity="0.85"/>
+    <rect x="1183" y="218" width="36" height="5" rx="2.5" fill="#93a2b7" opacity="0.9"/>
+    <rect x="1183" y="230" width="31" height="5" rx="2.5" fill="#6d7b8d" opacity="0.82"/>
+    <rect x="1158" y="246" width="59" height="5" rx="2.5" fill="#5f6b7c" opacity="0.7"/>
 
-    <rect x="50" y="220"
-          width="95"
-          height="5"
-          fill="#484f58"/>
+    <!-- thumbnails -->
+    <g clip-path="url(#clipThumb1)">
+      <rect x="865" y="206" width="92" height="60" rx="10" fill="#1a2433"/>
+      <path d="M865 252 L882 233 L897 239 L915 220 L935 237 L957 224 V266 H865 Z" fill="#4b5b72"/>
+      <path d="M865 257 L881 244 L899 251 L922 230 L945 250 L957 241 V266 H865 Z" fill="#64748b"/>
+      <rect x="865" y="245" width="92" height="21" fill="#243143" opacity="0.55"/>
+    </g>
 
-    <rect x="281" y="219"
-          width="85"
-          height="5"
-          fill="#f0f6fc"/>
+    <g clip-path="url(#clipThumb2)">
+      <rect x="969" y="206" width="92" height="60" rx="10" fill="#171f2c"/>
+      <rect x="999" y="228" width="26" height="16" rx="1" fill="#2d3d51"/>
+      <rect x="1006" y="244" width="12" height="3" rx="1.5" fill="#3f5167"/>
+      <path d="M980 266 V226 Q991 218 1002 226 V266 Z" fill="#253241"/>
+      <path d="M986 266 V214 Q998 203 1010 214 V266 Z" fill="#334253"/>
+      <rect x="969" y="247" width="92" height="19" fill="#202a39" opacity="0.55"/>
+    </g>
 
-    <!-- Cursor -->
-    <path d="M6 220 L40 228 L28 239 L41 261 L33 266 L20 245 L8 253 Z"
-          fill="#f0f6fc"
-          stroke="#0d1117"
-          stroke-width="3"
-          stroke-linejoin="round"/>
+    <g clip-path="url(#clipThumb3)">
+      <rect x="1073" y="206" width="92" height="60" rx="10" fill="#171e2a"/>
+      <path d="M1082 251 H1152 V254 H1082 Z" fill="#74839a"/>
+      <path d="M1090 251 C1104 235, 1120 242, 1135 229 C1146 241, 1153 238, 1165 245 V266 H1073 Z" fill="#2d3b4e"/>
+      <rect x="1115" y="222" width="4" height="29" rx="1" fill="#8b9ab0"/>
+      <rect x="1110" y="229" width="13" height="3" rx="1.5" fill="#8b9ab0"/>
+    </g>
+
+    <!-- card labels -->
+    <rect x="865" y="273" width="42" height="5" rx="2.5" fill="#7a899e" opacity="0.85"/>
+    <rect x="969" y="273" width="42" height="5" rx="2.5" fill="#7a899e" opacity="0.85"/>
+    <rect x="1073" y="273" width="42" height="5" rx="2.5" fill="#7a899e" opacity="0.85"/>
+
+    <!-- cursor -->
+    <path d="M839 279 L857 287 L850 294 L858 309 L853 312 L845 298 L839 304 Z"
+          fill="#f3f6fb"/>
+    <path d="M839 279 L857 287 L850 294 L858 309 L853 312 L845 298 L839 304 Z"
+          fill="none" stroke="#0d131d" stroke-width="2.8" stroke-linejoin="round"/>
+  </g>
+
+  <!-- foreground desk silhouettes for human vibe -->
+  <ellipse cx="765" cy="330" rx="118" ry="18" fill="#000000" opacity="0.14" filter="url(#blurSmall)"/>
+  <g opacity="0.9">
+    <rect x="710" y="288" width="58" height="54" rx="8" fill="#0b1018"/>
+    <path d="M768 306 H777 C787 306, 789 312, 789 318 V320 C789 326, 787 332, 777 332 H768"
+          fill="none" stroke="#1c2736" stroke-width="4"/>
+  </g>
+
+  <g opacity="0.8">
+    <rect x="1216" y="278" width="24" height="58" rx="6" fill="#0d131d"/>
+    <rect x="1220" y="246" width="3.8" height="38" rx="1.9" fill="#111a27"/>
+    <rect x="1228" y="250" width="3.8" height="34" rx="1.9" fill="#111a27"/>
+    <rect x="1236" y="240" width="3.8" height="44" rx="1.9" fill="#111a27"/>
   </g>
 </svg>
